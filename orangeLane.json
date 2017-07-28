@@ -1,0 +1,59 @@
+{
+  "mission::Tasks": {
+    "name": "orangelane",
+    "type": "LineString",
+    "coordinates": [
+      {
+        "use": true,
+        "name": "findlane",
+        "order_before": 11,
+        "order_after": 0,
+        "mode_yaw": 3,
+        "origin": 1,
+        "tack_timeout": 120,
+        "target_timeout": 5,
+        "velocity": 0.1,
+        "target_vicinity": 0.2,
+        "coordinates": [
+          0,
+          0,
+          -0.5
+        ]
+      },
+      {
+        "use": true,
+        "name": "path_stab",
+        "order_before": 0,
+        "order_after": 0,
+        "mode_yaw": 2,
+        "origin": 3,
+        "tack_timeout": 120,
+        "target_timeout": 10,
+        "velocity": 0.2,
+        "target_vicinity": 0.2,
+        "coordinates": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "use": true,
+        "name": "end_stab",
+        "order_before": 10,
+        "order_after": 0,
+        "mode_yaw": 2,
+        "origin": 3,
+        "tack_timeout": 120,
+        "target_timeout": 5,
+        "velocity": 0.2,
+        "target_vicinity": 0.2,
+        "coordinates": [
+          0,
+          0,
+          1
+        ]
+      }
+    ]
+  }
+}

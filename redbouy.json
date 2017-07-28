@@ -1,0 +1,93 @@
+{
+  "mission::Tasks": {
+    "name": "redbouy",
+    "type": "LineString",
+    "coordinates": [
+      {
+        "use": true,
+        "name": "findredbouy",
+        "order_before": 24,
+        "order_after": 0,
+        "mode_yaw": 3,
+        "origin": 1,
+        "tack_timeout": 120,
+        "target_timeout": 5,
+        "velocity": 0.1,
+        "target_vicinity": 0.2,
+        "coordinates": [
+          0,
+          0,
+          -0.5
+        ]
+      },
+      {
+        "use": true,
+        "name": "redbouystab",
+        "order_before": 0,
+        "order_after": 25,
+        "mode_yaw": 2,
+        "origin": 6,
+        "tack_timeout": 200,
+        "target_timeout": 10,
+        "velocity": 0.1,
+        "target_vicinity": 1,
+        "coordinates": [
+          0,
+          -0.5,
+          0
+        ]
+      },
+      {
+        "use": true,
+        "name": "redbouy",
+        "order_before": 0,
+        "order_after": 0,
+        "mode_yaw": 2,
+        "origin": 6,
+        "tack_timeout": 120,
+        "target_timeout": 2,
+        "velocity": 0.4,
+        "target_vicinity": 0.2,
+        "coordinates": [
+          0,
+          0.5,
+          0
+        ]
+      },
+      {
+        "use": true,
+        "name": "back",
+        "order_before": 0,
+        "order_after": 0,
+        "mode_yaw": 2,
+        "origin": 6,
+        "tack_timeout": 120,
+        "target_timeout": 5,
+        "velocity": 0.5,
+        "target_vicinity": 1,
+        "coordinates": [
+          0,
+          -0.5,
+          0
+        ]
+      },
+      {
+        "use": true,
+        "name": "rise",
+        "order_before": 0,
+        "order_after": 0,
+        "mode_yaw": 2,
+        "origin": 6,
+        "tack_timeout": 120,
+        "target_timeout": 5,
+        "velocity": 0.3,
+        "target_vicinity": 0.2,
+        "coordinates": [
+          -1,
+          2,
+          0.7
+        ]
+      }
+    ]
+  }
+}
