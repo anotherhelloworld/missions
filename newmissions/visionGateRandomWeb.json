@@ -1,176 +1,176 @@
 {
   "mission::Tasks": {
-    "name": "right_mission",
+    "name": "gate",
     "type": "LineString",
     "coordinates": [
       {
         "use": true,
-        "name": "go_oct",
-        "order_before": 0,
-        "order_after": 0,
-        "mode_yaw": 1,
-        "origin": 12,
-        "tack_timeout": 240,
-        "target_timeout": 8,
-        "velocity": 0.5,
-        "target_vicinity": 2,
-        "coordinates": [
-          0,
-          0,
-          0.7
-        ]
-      },
-      {
-        "use": true,
-        "name": "stable_oct_pinger",
-        "order_before": 0,
+        "name": "diving",
+        "order_before": 1,
         "order_after": 0,
         "mode_yaw": 3,
-        "origin": 12,
-        "tack_timeout": 30,
+        "origin": 1,
+        "tack_timeout": 5,
         "target_timeout": 5,
-        "velocity": 0.3,
-        "target_vicinity": 2,
+        "velocity": 0.2,
+        "target_vicinity": 1,
         "coordinates": [
           0,
           0,
-          0.7
+          -0.7
         ]
       },
       {
         "use": true,
-        "name": "up_oct",
+        "name": "forward",
         "order_before": 0,
         "order_after": 0,
         "mode_yaw": 3,
-        "origin": 12,
+        "origin": 1,
+        "tack_timeout": 20,
+        "target_timeout": 3,
+        "velocity": 0.2,
+        "target_vicinity": 0.2,
+        "coordinates": [
+          0,
+          2.6,
+          -0.7
+        ]
+      },
+      {
+        "use": true,
+        "name": "find_gate",
+        "order_before": 0,
+        "order_after": 2,
+        "mode_yaw": 2,
+        "origin": 2,
+        "tack_timeout": 40,
+        "target_timeout": 5,
+        "velocity": 0.2,
+        "target_vicinity": 0.2,
+        "coordinates": [
+          0,
+          -6,
+          0
+        ]
+      },
+      {
+        "use": true,
+        "name": "gate",
+        "order_before": 0,
+        "order_after": 0,
+        "mode_yaw": 2,
+        "origin": 2,
+        "tack_timeout": 60,
+        "target_timeout": 2,
+        "velocity": 0.5,
+        "target_vicinity": 0.2,
+        "coordinates": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "use": true,
+        "name": "super_move",
+        "order_before": 0,
+        "order_after": 0,
+        "mode_yaw": 0,
+        "origin": 2,
+        "tack_timeout": 60,
+        "target_timeout": 5,
+        "velocity": 0.5,
+        "target_vicinity": 1,
+        "coordinates": [
+          5,
+          15,
+          -1.5
+        ]
+      },
+      {
+        "use": true,
+        "name": "curse",
+        "order_before": 0,
+        "order_after": 0,
+        "mode_yaw": 0,
+        "origin": 2,
         "tack_timeout": 10,
         "target_timeout": 5,
         "velocity": 0,
-        "target_vicinity": 0.2,
-        "coordinates": [
-          0,
-          0,
-          2
-        ]
-      },
-      {
-        "use": true,
-        "name": "down_oct",
-        "order_before": 0,
-        "order_after": 0,
-        "mode_yaw": 3,
-        "origin": 12,
-        "tack_timeout": 120,
-        "target_timeout": 10,
-        "velocity": 0.5,
-        "target_vicinity": 0.2,
-        "coordinates": [
-          0,
-          0,
-          0.7
-        ]
-      },
-      {
-        "use": true,
-        "name": "go_backet",
-        "order_before": 23,
-        "order_after": 0,
-        "mode_yaw": 1,
-        "origin": 12,
-        "tack_timeout": 240,
-        "target_timeout": 7,
-        "velocity": 0.5,
-        "target_vicinity": 2,
-        "coordinates": [
-          0,
-          0,
-          0.7
-        ]
-      },
-      {
-        "use": true,
-        "name": "stable_backet_pinger",
-        "order_before": 9,
-        "order_after": 0,
-        "mode_yaw": 3,
-        "origin": 12,
-        "tack_timeout": 40,
-        "target_timeout": 7,
-        "velocity": 0.3,
-        "target_vicinity": 2,
-        "coordinates": [
-          0,
-          0,
-          0.7
-        ]
-      },
-      {
-        "use": true,
-        "name": "backet_stab",
-        "order_before": 0,
-        "order_after": 10,
-        "mode_yaw": 2,
-        "origin": 9,
-        "tack_timeout": 30,
-        "target_timeout": 15,
-        "velocity": 0.2,
         "target_vicinity": 1,
         "coordinates": [
-          0,
-          0,
-          1.5
+          10,
+          20,
+          -1.5
         ]
       },
       {
         "use": true,
-        "name": "diving_backet",
-        "order_before": 0,
+        "name": "super_move2",
+        "order_before": 22,
         "order_after": 0,
-        "mode_yaw": 2,
-        "origin": 9,
+        "mode_yaw": 0,
+        "origin": 2,
         "tack_timeout": 30,
         "target_timeout": 5,
-        "velocity": 0.2,
+        "velocity": 0.3,
         "target_vicinity": 1,
         "coordinates": [
-          0,
-          0,
-          1.1
+          10,
+          20,
+          -1.5
         ]
       },
       {
-        "use": true,
-        "name": "drop_balls",
-        "order_before": 17,
-        "order_after": 17,
-        "mode_yaw": 2,
-        "origin": 9,
-        "tack_timeout": 10,
-        "target_timeout": 10,
-        "velocity": 0.2,
-        "target_vicinity": 0.2,
-        "coordinates": [
-          0,
-          0,
-          1.1
-        ]
-      },
-      {
-        "use": true,
-        "name": "rise_from_backet",
+        "use": false,
+        "name": "Задача",
         "order_before": 0,
         "order_after": 0,
-        "mode_yaw": 2,
-        "origin": 9,
-        "tack_timeout": 10,
-        "target_timeout": 10,
-        "velocity": 0.2,
+        "mode_yaw": 0,
+        "origin": -1,
+        "tack_timeout": 300,
+        "target_timeout": 5,
+        "velocity": 0.5,
         "target_vicinity": 1,
         "coordinates": [
           0,
           0,
-          50
+          0
+        ]
+      },
+      {
+        "use": false,
+        "name": "Задача",
+        "order_before": 0,
+        "order_after": 0,
+        "mode_yaw": 0,
+        "origin": -1,
+        "tack_timeout": 300,
+        "target_timeout": 5,
+        "velocity": 0.5,
+        "target_vicinity": 1,
+        "coordinates": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "use": false,
+        "name": "Задача",
+        "order_before": 0,
+        "order_after": 0,
+        "mode_yaw": 0,
+        "origin": -1,
+        "tack_timeout": 300,
+        "target_timeout": 5,
+        "velocity": 0.5,
+        "target_vicinity": 1,
+        "coordinates": [
+          0,
+          0,
+          0
         ]
       },
       {
