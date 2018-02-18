@@ -1,8 +1,76 @@
 {
 
-    "name": "left_mission",
+    "name": "right_mission",
     "type": "LineString",
     "coordinates": [
+      {
+        "use": true,
+        "name": "go_oct",
+        "order_before": 0,
+        "order_after": 0,
+        "mode_yaw": 1,
+        "origin": 12,
+        "tack_timeout": 240,
+        "target_timeout": 8,
+        "velocity": 0.5,
+        "target_vicinity": 2,
+        "coordinates": [
+          0,
+          0,
+          0.7
+        ]
+      },
+      {
+        "use": true,
+        "name": "stable_oct_pinger",
+        "order_before": 0,
+        "order_after": 0,
+        "mode_yaw": 3,
+        "origin": 12,
+        "tack_timeout": 30,
+        "target_timeout": 5,
+        "velocity": 0.3,
+        "target_vicinity": 2,
+        "coordinates": [
+          0,
+          0,
+          0.7
+        ]
+      },
+      {
+        "use": true,
+        "name": "up_oct",
+        "order_before": 0,
+        "order_after": 0,
+        "mode_yaw": 3,
+        "origin": 12,
+        "tack_timeout": 10,
+        "target_timeout": 5,
+        "velocity": 0,
+        "target_vicinity": 0.2,
+        "coordinates": [
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "use": true,
+        "name": "down_oct",
+        "order_before": 0,
+        "order_after": 0,
+        "mode_yaw": 3,
+        "origin": 12,
+        "tack_timeout": 120,
+        "target_timeout": 10,
+        "velocity": 0.5,
+        "target_vicinity": 0.2,
+        "coordinates": [
+          0,
+          0,
+          0.7
+        ]
+      },
       {
         "use": true,
         "name": "go_backet",
@@ -90,70 +158,19 @@
       },
       {
         "use": true,
-        "name": "go_oct",
+        "name": "rise_from_backet",
         "order_before": 0,
         "order_after": 0,
-        "mode_yaw": 1,
-        "origin": 12,
-        "tack_timeout": 240,
-        "target_timeout": 8,
-        "velocity": 0.5,
-        "target_vicinity": 2,
-        "coordinates": [
-          0,
-          0,
-          0.7
-        ]
-      },
-      {
-        "use": true,
-        "name": "stable_oct_pinger",
-        "order_before": 0,
-        "order_after": 0,
-        "mode_yaw": 3,
-        "origin": 12,
-        "tack_timeout": 30,
-        "target_timeout": 5,
-        "velocity": 0.3,
-        "target_vicinity": 2,
-        "coordinates": [
-          0,
-          0,
-          0.7
-        ]
-      },
-      {
-        "use": true,
-        "name": "up_oct",
-        "order_before": 0,
-        "order_after": 0,
-        "mode_yaw": 3,
-        "origin": 12,
+        "mode_yaw": 2,
+        "origin": 9,
         "tack_timeout": 10,
-        "target_timeout": 5,
-        "velocity": 0,
-        "target_vicinity": 0.2,
-        "coordinates": [
-          0,
-          0,
-          2
-        ]
-      },
-      {
-        "use": false,
-        "name": "down_oct",
-        "order_before": 0,
-        "order_after": 0,
-        "mode_yaw": 3,
-        "origin": 12,
-        "tack_timeout": 120,
         "target_timeout": 10,
-        "velocity": 0.5,
-        "target_vicinity": 0.2,
+        "velocity": 0.2,
+        "target_vicinity": 1,
         "coordinates": [
           0,
           0,
-          1
+          50
         ]
       },
       {
