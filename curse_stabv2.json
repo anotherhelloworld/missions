@@ -1,30 +1,30 @@
 {
   "motion::Tack": {
-    "time_limit": 0,
+    "time_limit": 20,
     "priority": 0,
     "stab_param": {
       "value": [
         0,
-        0,
-        1,
-        0,
+        10,
+        -1,
+        -170,
         0,
         0
       ],
       "value_type": [
-        3,
-        3,
-        3,
         0,
-        0,
+        3,
+        3,
+        3,
+        3,
         0
       ],
       "value_frame": [
-        12,
-        12,
-        12,
-        12,
         -1,
+        -1,
+        0,
+        0,
+        0,
         -1
       ]
     }
