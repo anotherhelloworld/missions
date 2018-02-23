@@ -1,0 +1,12 @@
+{
+  "motion::ConstraintSettings": {
+    "velocity": [
+      0.1,
+      0.4,
+      0.4,
+      30,
+      60,
+      60
+    ]
+  }
+}
