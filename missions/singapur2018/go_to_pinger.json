@@ -1,0 +1,32 @@
+{
+  "motion::Tack": {
+    "time_limit": 0,
+    "priority": 0,
+    "stab_param": {
+      "value": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "value_type": [
+        3,
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "value_frame": [
+        12,
+        12,
+        12,
+        12,
+        -1,
+        -1
+      ]
+    }
+  }
+}

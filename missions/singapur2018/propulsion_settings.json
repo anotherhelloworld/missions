@@ -1,0 +1,52 @@
+{
+  "propulsion::GydroDynamics": {
+    "coefficients[base::Right]": {
+      "coordinates[base::Right]": 0,
+      "coordinates[base::Forward]": 0,
+      "coordinates[base::Up]": 0,
+      "coordinates[base::Yaw]": 0,
+      "coordinates[base::Pitch]": 0,
+      "coordinates[base::Roll]": 0
+    },
+    "coefficients[base::Forward]": {
+      "coordinates[base::Right]": 0,
+      "coordinates[base::Forward]": 0,
+      "coordinates[base::Up]": 0,
+      "coordinates[base::Yaw]": 0,
+      "coordinates[base::Pitch]": 0,
+      "coordinates[base::Roll]": 0
+    },
+    "coefficients[base::Up]": {
+      "coordinates[base::Right]": 0,
+      "coordinates[base::Forward]": 0,
+      "coordinates[base::Up]": 0,
+      "coordinates[base::Yaw]": 0,
+      "coordinates[base::Pitch]": 0,
+      "coordinates[base::Roll]": 0
+    },
+    "coefficients[base::Yaw]": {
+      "coordinates[base::Right]": -0.8,
+      "coordinates[base::Forward]": -0.6,
+      "coordinates[base::Up]": 0,
+      "coordinates[base::Yaw]": 0,
+      "coordinates[base::Pitch]": 0,
+      "coordinates[base::Roll]": 0
+    },
+    "coefficients[base::Pitch]": {
+      "coordinates[base::Right]": 0,
+      "coordinates[base::Forward]": 0.5,
+      "coordinates[base::Up]": 0,
+      "coordinates[base::Yaw]": 0,
+      "coordinates[base::Pitch]": 0,
+      "coordinates[base::Roll]": 0
+    },
+    "coefficients[base::Roll]": {
+      "coordinates[base::Right]": 0,
+      "coordinates[base::Forward]": 0,
+      "coordinates[base::Up]": 0,
+      "coordinates[base::Yaw]": 0,
+      "coordinates[base::Pitch]": 0,
+      "coordinates[base::Roll]": 0
+    }
+  }
+}

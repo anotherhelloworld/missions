@@ -1,0 +1,12 @@
+"mission::Tasks": {
+
+scp -r robots/* auv@192.168.200.2:/home/auv/robot_github/
+
+scp  mission.json auv@192.168.200.2:/home/auv/robot_github/_exe
+
+scp -r auv@192.168.200.3:/home/auv/robot_github/_exe/none photoStereo/
+
+scp -r photo auv@192.168.200.3:/home/auv/robot_github/nodes/
+
+git filter-branch --tree-filter 'rm -f -r hw/hps_isw_handoff/build.bckp' HEAD
+
