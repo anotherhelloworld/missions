@@ -4,7 +4,7 @@
     "type": "LineString",
     "coordinates": [
       {
-        "use": true,
+        "use": false,
         "name": "Задача",
         "order_before": 0,
         "order_after": 0,
@@ -25,32 +25,32 @@
         "name": "Задача",
         "order_before": 0,
         "order_after": 0,
-        "mode_yaw": 3,
+        "mode_yaw": 0,
         "origin": 1,
-        "tack_timeout": 120,
+        "tack_timeout": 5,
         "target_timeout": 5,
-        "velocity": 0.2,
-        "target_vicinity": 0.2,
+        "velocity": 0,
+        "target_vicinity": 1,
         "coordinates": [
-          0,
-          15,
-          -1
+          -10,
+          20,
+          0
         ]
       },
       {
-        "use": false,
+        "use": true,
         "name": "Задача",
         "order_before": 0,
         "order_after": 0,
         "mode_yaw": 0,
-        "origin": -1,
-        "tack_timeout": 300,
+        "origin": 1,
+        "tack_timeout": 120,
         "target_timeout": 5,
-        "velocity": 0.5,
+        "velocity": 0.3,
         "target_vicinity": 1,
         "coordinates": [
-          0,
-          0,
+          -10,
+          20,
           0
         ]
       },
