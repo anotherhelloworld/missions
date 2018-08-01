@@ -12,12 +12,12 @@
         "origin": 1,
         "tack_timeout": 15,
         "target_timeout": 5,
-        "velocity": 0.2,
+        "velocity": 0.3,
         "target_vicinity": 0.2,
         "lateral_mute": false,
         "coordinates": [
           0,
-          10,
+          0,
           -1
         ]
       },
