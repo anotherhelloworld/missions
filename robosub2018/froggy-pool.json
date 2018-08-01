@@ -1,6 +1,6 @@
 {
   "mission::Tasks": {
-    "name": "рулет стаб",
+    "name": "лягушатник",
     "type": "LineString",
     "coordinates": [
       {
@@ -12,13 +12,13 @@
         "origin": 1,
         "tack_timeout": 120,
         "target_timeout": 5,
-        "velocity": 0.3,
+        "velocity": 0.1,
         "target_vicinity": 0.2,
         "lateral_mute": false,
         "coordinates": [
           0,
-          15,
-          -1
+          0.5,
+          -0.5
         ]
       },
       {
@@ -30,17 +30,17 @@
         "origin": 1,
         "tack_timeout": 120,
         "target_timeout": 5,
-        "velocity": 0.3,
+        "velocity": 0.1,
         "target_vicinity": 0.2,
         "lateral_mute": false,
         "coordinates": [
           0,
-          25,
-          -1
+          0.5,
+          -0.5
         ]
       },
       {
-        "use": true,
+        "use": false,
         "name": "пинг",
         "order_before": 0,
         "order_after": 0,
@@ -58,7 +58,7 @@
         ]
       },
       {
-        "use": true,
+        "use": false,
         "name": "пинг",
         "order_before": 37,
         "order_after": 0,
@@ -76,7 +76,7 @@
         ]
       },
       {
-        "use": true,
+        "use": false,
         "name": "рулет стаб",
         "order_before": 0,
         "order_after": 0,
@@ -94,7 +94,7 @@
         ]
       },
       {
-        "use": true,
+        "use": false,
         "name": "вспл",
         "order_before": 38,
         "order_after": 0,
