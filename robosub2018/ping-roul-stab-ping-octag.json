@@ -1,6 +1,6 @@
 {
   "mission::Tasks": {
-    "name": "пингер старт",
+    "name": "рулет финиш",
     "type": "LineString",
     "coordinates": [
       {
