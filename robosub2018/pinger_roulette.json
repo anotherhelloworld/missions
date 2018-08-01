@@ -1,6 +1,6 @@
 {
   "mission::Tasks": {
-    "name": "рулет шар",
+    "name": "рулет стаб",
     "type": "LineString",
     "coordinates": [
       {
@@ -10,14 +10,32 @@
         "order_after": 0,
         "mode_yaw": 3,
         "origin": 1,
-        "tack_timeout": 15,
+        "tack_timeout": 120,
         "target_timeout": 5,
-        "velocity": 0.2,
+        "velocity": 0.3,
         "target_vicinity": 0.2,
         "lateral_mute": false,
         "coordinates": [
           0,
-          20,
+          10,
+          -1
+        ]
+      },
+      {
+        "use": true,
+        "name": "ворота",
+        "order_before": 0,
+        "order_after": 0,
+        "mode_yaw": 3,
+        "origin": 1,
+        "tack_timeout": 120,
+        "target_timeout": 5,
+        "velocity": 0.3,
+        "target_vicinity": 0.2,
+        "lateral_mute": false,
+        "coordinates": [
+          0,
+          15,
           -1
         ]
       },
@@ -28,7 +46,7 @@
         "order_after": 0,
         "mode_yaw": 1,
         "origin": 12,
-        "tack_timeout": 120,
+        "tack_timeout": 240,
         "target_timeout": 2,
         "velocity": 0.3,
         "target_vicinity": 1,
@@ -48,7 +66,7 @@
         "origin": 12,
         "tack_timeout": 20,
         "target_timeout": 5,
-        "velocity": 0.2,
+        "velocity": 0.3,
         "target_vicinity": 0.5,
         "lateral_mute": false,
         "coordinates": [
@@ -59,7 +77,7 @@
       },
       {
         "use": true,
-        "name": "стаб",
+        "name": "рулет стаб",
         "order_before": 0,
         "order_after": 0,
         "mode_yaw": 2,
@@ -108,24 +126,6 @@
         "coordinates": [
           0,
           2,
-          0
-        ]
-      },
-      {
-        "use": false,
-        "name": "Задача",
-        "order_before": 0,
-        "order_after": 0,
-        "mode_yaw": 0,
-        "origin": 0,
-        "tack_timeout": 300,
-        "target_timeout": 5,
-        "velocity": 0.5,
-        "target_vicinity": 1,
-        "lateral_mute": false,
-        "coordinates": [
-          0,
-          0,
           0
         ]
       },
