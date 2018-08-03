@@ -97,7 +97,7 @@
                 "use": true,
                 "name": "рулет стаб",
                 "order_before": 0,
-                "order_after": 0,
+                "order_after": 17,
                 "mode_yaw": 2,
                 "origin": 20,
                 "tack_timeout": 60,
