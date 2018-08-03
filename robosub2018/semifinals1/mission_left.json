@@ -1,84 +1,12 @@
 {
-        "name": "правая",
+        "name": "левая",
         "type": "LineString",
         "coordinates": [
             {
                 "use": true,
                 "name": "пинг",
                 "order_before": 0,
-                "order_after": 0,
-                "mode_yaw": 1,
-                "origin": 12,
-                "tack_timeout": 240,
-                "target_timeout": 10,
-                "velocity": 0.3,
-                "target_vicinity": 2,
-                "lateral_mute": false,
-                "coordinates": [
-                    0,
-                    0,
-                    0.8
-                ]
-            },
-            {
-                "use": true,
-                "name": "ищ",
-                "order_before": 37,
-                "order_after": 0,
-                "mode_yaw": 1,
-                "origin": 12,
-                "tack_timeout": 20,
-                "target_timeout": 5,
-                "velocity": 0.3,
-                "target_vicinity": 0.5,
-                "lateral_mute": false,
-                "coordinates": [
-                    0,
-                    0,
-                    1
-                ]
-            },
-            {
-                "use": true,
-                "name": "рулет стаб",
-                "order_before": 0,
-                "order_after": 0,
-                "mode_yaw": 2,
-                "origin": 20,
-                "tack_timeout": 60,
-                "target_timeout": 5,
-                "velocity": 0.2,
-                "target_vicinity": 0.2,
-                "lateral_mute": false,
-                "coordinates": [
-                    0,
-                    0,
-                    1.5
-                ]
-            },
-            {
-                "use": true,
-                "name": "вспл немножк",
-                "order_before": 0,
-                "order_after": 0,
-                "mode_yaw": 1,
-                "origin": 12,
-                "tack_timeout": 10,
-                "target_timeout": 10,
-                "velocity": 0,
-                "target_vicinity": 0.2,
-                "lateral_mute": false,
-                "coordinates": [
-                    0,
-                    0,
-                    0.8
-                ]
-            },
-            {
-                "use": true,
-                "name": "пинг",
-                "order_before": 0,
-                "order_after": 0,
+                "order_after": 16,
                 "mode_yaw": 1,
                 "origin": 12,
                 "tack_timeout": 240,
@@ -97,7 +25,7 @@
                 "name": "вспл",
                 "order_before": 0,
                 "order_after": 0,
-                "mode_yaw": 1,
+                "mode_yaw": 3,
                 "origin": 12,
                 "tack_timeout": 10,
                 "target_timeout": 10,
@@ -111,21 +39,93 @@
                 ]
             },
             {
-                "use": false,
-                "name": "погр",
+                "use": true,
+                "name": "погр немножк",
                 "order_before": 0,
-                "order_after": 0,
+                "order_after": 15,
                 "mode_yaw": 3,
-                "origin": 1,
-                "tack_timeout": 120,
-                "target_timeout": 5,
-                "velocity": 0.3,
+                "origin": 12,
+                "tack_timeout": 10,
+                "target_timeout": 10,
+                "velocity": 0,
                 "target_vicinity": 0.2,
                 "lateral_mute": false,
                 "coordinates": [
                     0,
-                    15,
-                    -1
+                    0,
+                    0.8
+                ]
+            },
+            {
+                "use": true,
+                "name": "пинг",
+                "order_before": 37,
+                "order_after": 0,
+                "mode_yaw": 1,
+                "origin": 12,
+                "tack_timeout": 240,
+                "target_timeout": 10,
+                "velocity": 0.3,
+                "target_vicinity": 2,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0.8
+                ]
+            },
+            {
+                "use": true,
+                "name": "ищ",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 1,
+                "origin": 12,
+                "tack_timeout": 20,
+                "target_timeout": 5,
+                "velocity": 0.3,
+                "target_vicinity": 0.5,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    1
+                ]
+            },
+            {
+                "use": true,
+                "name": "рулет стаб",
+                "order_before": 0,
+                "order_after": 17,
+                "mode_yaw": 2,
+                "origin": 20,
+                "tack_timeout": 60,
+                "target_timeout": 5,
+                "velocity": 0.2,
+                "target_vicinity": 0.2,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    1.5
+                ]
+            },
+            {
+                "use": true,
+                "name": "вспл",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 3,
+                "origin": 12,
+                "tack_timeout": 10,
+                "target_timeout": 10,
+                "velocity": 0,
+                "target_vicinity": 0.2,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    1.8
                 ]
             },
             {
@@ -579,4 +579,4 @@
                 ]
             }
         ]
- }
+}
