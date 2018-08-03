@@ -12,6 +12,24 @@
                 "origin": 1,
                 "tack_timeout": 120,
                 "target_timeout": 5,
+                "velocity": 0,
+                "target_vicinity": 0.2,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    -1
+                ]
+            },
+            {
+                "use": true,
+                "name": "погр",
+                "order_before": 15,
+                "order_after": 0,
+                "mode_yaw": 3,
+                "origin": 1,
+                "tack_timeout": 120,
+                "target_timeout": 5,
                 "velocity": 0.3,
                 "target_vicinity": 0.2,
                 "lateral_mute": false,
@@ -50,9 +68,9 @@
                 "target_timeout": 2,
                 "velocity": 1.5,
                 "target_vicinity": 1,
-                "lateral_mute": true,
+                "lateral_mute": false,
                 "coordinates": [
-                    15,
+                    -15,
                     40,
                     -1
                 ]
@@ -144,24 +162,6 @@
                 "coordinates": [
                     0,
                     2,
-                    0
-                ]
-            },
-            {
-                "use": false,
-                "name": "Задача",
-                "order_before": 0,
-                "order_after": 0,
-                "mode_yaw": 0,
-                "origin": 0,
-                "tack_timeout": 300,
-                "target_timeout": 5,
-                "velocity": 0.5,
-                "target_vicinity": 1,
-                "lateral_mute": false,
-                "coordinates": [
-                    0,
-                    0,
                     0
                 ]
             },
