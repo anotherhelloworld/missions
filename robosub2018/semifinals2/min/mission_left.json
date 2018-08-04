@@ -1,0 +1,582 @@
+{
+        "name": "левая",
+        "type": "LineString",
+        "coordinates": [
+            {
+                "use": true,
+                "name": "пинг",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 1,
+                "origin": 12,
+                "tack_timeout": 240,
+                "target_timeout": 10,
+                "velocity": 0.3,
+                "target_vicinity": 2,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0.8
+                ]
+            },
+            {
+                "use": true,
+                "name": "ищ",
+                "order_before": 37,
+                "order_after": 0,
+                "mode_yaw": 1,
+                "origin": 12,
+                "tack_timeout": 20,
+                "target_timeout": 5,
+                "velocity": 0.3,
+                "target_vicinity": 0.5,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    1.2
+                ]
+            },
+            {
+                "use": true,
+                "name": "рулет стаб",
+                "order_before": 0,
+                "order_after": 17,
+                "mode_yaw": 2,
+                "origin": 20,
+                "tack_timeout": 60,
+                "target_timeout": 5,
+                "velocity": 0.2,
+                "target_vicinity": 0.2,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    1.5
+                ]
+            },
+            {
+                "use": true,
+                "name": "вспл немножк",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 1,
+                "origin": 12,
+                "tack_timeout": 10,
+                "target_timeout": 10,
+                "velocity": 0,
+                "target_vicinity": 0.2,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0.8
+                ]
+            },
+            {
+                "use": true,
+                "name": "пинг",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 1,
+                "origin": 12,
+                "tack_timeout": 240,
+                "target_timeout": 10,
+                "velocity": 0.3,
+                "target_vicinity": 2,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0.8
+                ]
+            },
+            {
+                "use": true,
+                "name": "вспл",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 1,
+                "origin": 12,
+                "tack_timeout": 10,
+                "target_timeout": 10,
+                "velocity": 0,
+                "target_vicinity": 0.2,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    1.8
+                ]
+            },
+            {
+                "use": false,
+                "name": "погр",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 3,
+                "origin": 1,
+                "tack_timeout": 120,
+                "target_timeout": 5,
+                "velocity": 0.3,
+                "target_vicinity": 0.2,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    15,
+                    -1
+                ]
+            },
+            {
+                "use": false,
+                "name": "впер",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 2,
+                "origin": 2,
+                "tack_timeout": 60,
+                "target_timeout": 5,
+                "velocity": 0.3,
+                "target_vicinity": 0.2,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    2,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "use": false,
+                "name": "Задача",
+                "order_before": 0,
+                "order_after": 0,
+                "mode_yaw": 0,
+                "origin": 0,
+                "tack_timeout": 300,
+                "target_timeout": 5,
+                "velocity": 0.5,
+                "target_vicinity": 1,
+                "lateral_mute": false,
+                "coordinates": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ]
+}
