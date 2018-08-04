@@ -5,7 +5,7 @@
             {
                 "use": true,
                 "name": "ворота",
-                "order_before": 0,
+                "order_before": 15,
                 "order_after": 0,
                 "mode_yaw": 3,
                 "origin": 1,
@@ -40,7 +40,7 @@
             },
             {
                 "use": true,
-                "name": "пинг",
+                "name": "октаг",
                 "order_before": 0,
                 "order_after": 0,
                 "mode_yaw": 1,
@@ -94,7 +94,7 @@
             },
             {
                 "use": true,
-                "name": "пинг",
+                "name": "рулет",
                 "order_before": 0,
                 "order_after": 0,
                 "mode_yaw": 1,
@@ -112,7 +112,7 @@
             },
             {
                 "use": true,
-                "name": "пинг",
+                "name": "ищ",
                 "order_before": 37,
                 "order_after": 0,
                 "mode_yaw": 1,
