@@ -16,7 +16,7 @@
         "lateral_mute": false,
         "coordinates": [
           0,
-          20,
+          15,
           -1
         ]
       },
@@ -34,7 +34,7 @@
         "lateral_mute": false,
         "coordinates": [
           0,
-          35,
+          26,
           -1
         ]
       },
@@ -61,12 +61,12 @@
         "name": "ищ",
         "order_before": 37,
         "order_after": 0,
-        "mode_yaw": 1,
+        "mode_yaw": 3,
         "origin": 12,
         "tack_timeout": 20,
-        "target_timeout": 5,
+        "target_timeout": 20,
         "velocity": 0.3,
-        "target_vicinity": 0.5,
+        "target_vicinity": 0.2,
         "lateral_mute": false,
         "coordinates": [
           0,
@@ -89,7 +89,7 @@
         "coordinates": [
           0,
           0,
-          1.5
+          2
         ]
       },
       {
@@ -97,11 +97,11 @@
         "name": "вспл немножк",
         "order_before": 38,
         "order_after": 0,
-        "mode_yaw": 3,
+        "mode_yaw": 2,
         "origin": 12,
         "tack_timeout": 5,
         "target_timeout": 5,
-        "velocity": 0,
+        "velocity": 0.2,
         "target_vicinity": 0.2,
         "lateral_mute": false,
         "coordinates": [
@@ -115,7 +115,7 @@
         "name": "октаг",
         "order_before": 0,
         "order_after": 0,
-        "mode_yaw": 1,
+        "mode_yaw": 2,
         "origin": 12,
         "tack_timeout": 240,
         "target_timeout": 10,
@@ -133,11 +133,11 @@
         "name": "вспл",
         "order_before": 0,
         "order_after": 0,
-        "mode_yaw": 1,
+        "mode_yaw": 2,
         "origin": 12,
         "tack_timeout": 5,
         "target_timeout": 5,
-        "velocity": 0,
+        "velocity": 0.2,
         "target_vicinity": 0.2,
         "lateral_mute": false,
         "coordinates": [
