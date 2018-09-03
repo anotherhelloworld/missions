@@ -7,24 +7,24 @@
                 "use": true,
                 "name": "рулет стаб",
                 "order_before": 12,
-                "order_after": 0,
+                "order_after": 45,
                 "mode_yaw": 3,
                 "origin": 20,
-                "tack_timeout": 60,
+                "tack_timeout": 30,
                 "target_timeout": 5,
                 "velocity": 0.2,
                 "target_vicinity": 0.2,
                 "lateral_mute": false,
                 "coordinates": [
                     0,
-                    0.2,
-                    0.7
+                    0,
+                    1.5
                 ]
             },
             {
-                "use": true,
+                "use": false,
                 "name": "команда",
-                "order_before": 39,
+                "order_before": 0,
                 "order_after": 0,
                 "mode_yaw": 0,
                 "origin": 0,
@@ -94,7 +94,7 @@
                 ]
             },
             {
-                "use": true,
+                "use": false,
                 "name": "впер",
                 "order_before": 0,
                 "order_after": 0,
@@ -112,7 +112,7 @@
                 ]
             },
             {
-                "use": false,
+                "use": true,
                 "name": "пингер",
                 "order_before": 15,
                 "order_after": 0,

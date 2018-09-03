@@ -36,7 +36,7 @@
                 "coordinates": [
                     0,
                     1,
-                    -0.5
+                    -0.8
                 ]
             },
             {
@@ -54,7 +54,7 @@
                 "coordinates": [
                     0,
                     4,
-                    -0.5
+                    -0.8
                 ]
             },
             {
@@ -72,7 +72,7 @@
                 "coordinates": [
                     0,
                     0,
-                    1.5
+                    1.2
                 ]
             },
             {
@@ -94,7 +94,7 @@
                 ]
             },
             {
-                "use": false,
+                "use": true,
                 "name": "пингер",
                 "order_before": 15,
                 "order_after": 0,
@@ -108,7 +108,7 @@
                 "coordinates": [
                     0,
                     0,
-                    1.2
+                    1
                 ]
             },
             {
