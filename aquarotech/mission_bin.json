@@ -66,12 +66,12 @@
                 "origin": 3,
                 "tack_timeout": 20,
                 "target_timeout": 20,
-                "velocity": 0.15,
+                "velocity": 0.2,
                 "target_vicinity": 0.2,
                 "lateral_mute": false,
                 "coordinates": [
                     0,
-                    0,
+                    0.2,
                     1.5
                 ]
             },
@@ -84,12 +84,12 @@
                 "origin": 3,
                 "tack_timeout": 300,
                 "target_timeout": 10,
-                "velocity": 0.15,
+                "velocity": 0.2,
                 "target_vicinity": 0.2,
                 "lateral_mute": false,
                 "coordinates": [
                     0,
-                    0,
+                    0.2,
                     1.5
                 ]
             },
